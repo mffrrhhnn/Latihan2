@@ -1,0 +1,76 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: cornsilk;
+    color: brown;
+}
+
+.container {
+    width: 860px;
+    margin: auto;
+    background-color: cornsilk;
+}
+
+.header {
+    padding: 1px;
+    color: brown;
+    padding-left: 2px;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-top: -25px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: blue;
+    padding: 5px;
+}
+
+.hero {
+    height: 230px;
+    background-image: url(gambar.png);
+    background-size: cover;
+    background-position: 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.content {
+    padding: 2px;
+}
+
+.content h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+    padding-left: 5px;
+}
+
+.content .penulis {
+    font-size: 12px;
+    margin-top: -25px;
+    color: black;
+    padding-left: 5px;
+}
+
+.content p {
+    padding-left: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.footer {
+    background-color: darkgoldenrod;
+    padding: 1px;
+}
+
+.footer .copy {
+    color: black;
+    text-align: center;
+    font-size: 13px;
+}
